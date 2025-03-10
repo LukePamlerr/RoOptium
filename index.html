@@ -1,0 +1,40 @@
+<!-- Website/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro Optium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>GroupSync</h1>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#roles">Roles</a>
+            <a href="#analytics">Analytics</a>
+            <a href="#automation">Automation</a>
+            <a href="#security">Security</a>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>Welcome, Admin</h2>
+            <button id="logout">Logout</button>
+        </header>
+        <section id="dashboard">
+            <div class="card">
+                <h3>Group Stats</h3>
+                <p id="playtime">Avg Playtime: Loading...</p>
+                <p id="contributions">Avg Contributions: Loading...</p>
+            </div>
+            <div class="card">
+                <h3>Recent Logs</h3>
+                <ul id="security-logs"></ul>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
